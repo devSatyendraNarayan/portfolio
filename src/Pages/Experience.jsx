@@ -42,7 +42,7 @@ const Experience = () => {
   );
 
   return (
-    <div className="container mx-auto py-16 w-fit">
+    <div className="min-h-screen container mx-auto py-16 w-fit">
       <div className="flex flex-col items-center  mb-8">
         <p className="text-md ">My Skills</p>
         <h1 className="text-3xl text-purple-500 ">My Experiences</h1>

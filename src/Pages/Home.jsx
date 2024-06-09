@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="min-h-screen flex justify-center items-center relative bottom-20">
+    <div className="h-screen flex justify-center items-center">
       <div className="text-center flex flex-col items-center gap-y-4">
         <img
           className="mask mask-circle w-1/3"

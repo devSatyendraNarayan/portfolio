@@ -1,21 +1,86 @@
 import React from "react";
+import { FaArrowRightLong } from "react-icons/fa";
+import { IoCodeSlash } from "react-icons/io5";
 
-function Projects() {
+const Projects = () => {
+  const projectData = [
+    {
+      id: 1,
+      title: "AI Grammar Correct",
+      imageUrl: "/src/assets/AI-Grammer-correct.jpeg",
+      demoLink: "https://gramarly.vercel.app/",
+      isCodeAvailable: false,
+      technologies: ["Gemini API", "React JS"],
+    },
+    {
+      id: 2,
+      title: "Object Detection System",
+      imageUrl: "/src/assets/Object-detection-img.jpeg",
+      demoLink: "https://object-detection-system.vercel.app/",
+      codeLink: "https://github.com/devSatyendraNarayan/Object-detection-System-",
+      technologies: ["Tensorflow JS", "React JS"],
+    },
+  ];
+
   return (
-    <>
-     <div>
-     <div className="hero min-h-screen bg-base-200">
-  <div className="hero-content text-center">
-    <div className="max-w-md">
-      <h1 className="text-5xl font-bold">Hello there</h1>
-      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
+    <div className="min-h-screen flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center">
+        <p className="text-md">My Portfolio</p>
+        <h1 className="text-3xl text-purple-500">Projects</h1>
+      </div>
+      <div className="lg:flex lg:flex-row w-full mt-5 flex-col mb-10 lg:mb-0 items-center justify-around gap-5">
+        {projectData.map((project) => (
+          <div key={project.id} className="card w-96 bg-base-100 shadow-xl relative">
+            {!project.isCodeAvailable && (
+              <span className="p-1 bg-gray-500 rounded-full absolute right-2 text-xs top-2 flex items-center justify-center cursor-pointer">
+                Not Available
+              </span>
+            )}
+            {project.codeLink && (
+              <a
+                href={project.codeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-1 bg-purple-500 rounded-full absolute right-2 text-xs top-2 flex items-center justify-center cursor-pointer"
+              >
+                View Code
+              </a>
+            )}
+            <figure className="px-10 pt-10">
+              <img
+                src={project.imageUrl}
+                alt={`${project.title} project`}
+                className="rounded-xl"
+              />
+            </figure>
+            <div className="card-body items-start text-center">
+              <h2 className="card-title">{project.title}</h2>
+
+              <div className="w-full">
+                <div className="card-actions flex items-center justify-between">
+                  <a
+                    href={project.demoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-purple-300"
+                  >
+                    Demo <FaArrowRightLong />
+                  </a>
+                  <div className="space-x-2">
+                    {project.technologies.map((tech, index) => (
+                      <div key={index} className="badge badge-outline">
+                        {tech}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
-  </div>
-</div>
-     </div>
-    </>
   );
-}
+};
 
 export default Projects;
