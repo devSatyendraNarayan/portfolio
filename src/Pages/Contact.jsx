@@ -1,21 +1,30 @@
-import React from 'react'
+import React from "react";
 
 function Contact() {
   return (
     <>
-    <div id="contact">
-    <div className="hero min-h-screen bg-base-200">
-  <div className="hero-content text-center">
-    <div className="max-w-md">
-      <h1 className="text-5xl font-bold">Hello there</h1>
-      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
-    </div>
-  </div>
-</div>
-   </div>
-   </>
-  )
+      <div className="min-h-screen flex flex-col items-center justify-center">
+       
+          <div className="flex flex-col items-center">
+            <p className="text-md">Get in touch</p>
+            <h1 className="text-3xl text-purple-500">Contact Me</h1>
+          </div>
+        
+        <div className="">
+          <footer className="footer footer-center p-4">
+            <aside>
+              <div className="flex items-center">
+                <span className="bg-green-600 text-white text-sm font-semibold px-2.5 py-0.5 rounded">
+                  Available for Hire
+                </span>
+                <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-green-400 opacity-75"></span>
+              </div>{" "}
+            </aside>
+          </footer>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Contact
+export default Contact;

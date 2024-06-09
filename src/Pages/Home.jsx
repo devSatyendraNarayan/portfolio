@@ -1,21 +1,45 @@
-import React from 'react'
+import React from "react";
 
 function Home() {
   return (
-    <>
-     <div id="home">
-     <div className="hero min-h-screen bg-base-200">
-  <div className="hero-content text-center">
-    <div className="max-w-md">
-      <h1 className="text-5xl font-bold">Hello there</h1>
-      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
+    <div className="min-h-screen flex justify-center items-center relative bottom-20">
+      <div className="text-center flex flex-col items-center gap-y-4">
+        <img
+          className="mask mask-circle w-1/3"
+          src="/src/assets/MyImage.png"
+          alt="My Image"
+        />
+        <div>
+          <p className="text-lg">Hello, I&apos;m</p>
+          <h1 className="text-3xl font-semibold tracking-wider">
+            Satyendra Narayan Saw
+          </h1>
+          <p className="text-lg">Frontend Developer</p>
+        </div>
+
+        <div className="flex flex-col sm:flex-row gap-3 items-center">
+          <a
+            className="inline-block rounded-lg border border-purple-300 px-12 py-3 text-md font-medium text-white hover:bg-purple-600 hover:text-white focus:outline-none focus:ring active:bg-purple-500"
+            href="#"
+          >
+            Download CV
+          </a>
+          <a
+            className="inline-block rounded-lg border border-purple-300 bg-purple-600 px-12 py-3 text-md font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-purple-500"
+            href="#"
+          >
+            About Me
+          </a>
+        </div>
+        <div className="flex items-center">
+          <span className="bg-green-600 text-white text-sm font-semibold px-2.5 py-0.5 rounded">
+            Available for Hire
+          </span>
+          <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-green-400 opacity-75"></span>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-    </div>
-    </>
-  )
+  );
 }
 
-export default Home
+export default Home;

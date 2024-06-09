@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 function Projects() {
   return (
     <>
-     <div id="projects">
+     <div>
      <div className="hero min-h-screen bg-base-200">
   <div className="hero-content text-center">
     <div className="max-w-md">
@@ -13,9 +13,9 @@ function Projects() {
     </div>
   </div>
 </div>
-    </div>
+     </div>
     </>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
