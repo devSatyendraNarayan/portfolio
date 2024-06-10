@@ -5,7 +5,7 @@ function Home() {
     <div className="h-screen flex justify-center items-center">
       <div className="text-center flex flex-col items-center gap-y-4">
         <img
-          className="mask mask-circle w-1/3"
+          className="mask mask-circle lg:w-96 w-80"
 src="https://lh3.googleusercontent.com/pw/AP1GczPJ_Yf502IiK7Ef2eNF_iVWXE3F11PUWbY3eYO7yB2F9hmdVv_Cudm8HY-IqWtp3_VB8wpRy3ORkpByQVk4d_swJM03slK0blsVs-B_4cVEJzTOZefdYzoL619w0sAEBmmBcs5rvAqyX1KsbX2tGKM1=w913-h913-s-no-gm"
           alt="My Image"
         />
