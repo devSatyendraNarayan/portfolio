@@ -3,18 +3,17 @@ import { IoSunny, IoMoonSharp } from "react-icons/io5";
 function Navbar() {
   return (
     <>
-      <div className="navbar bg-base-300 px-20 fixed top-0 left-0 right-0 z-50">
-        <div className="flex-1 ">
+      <div className="navbar bg-base-100 fixed right-0 left-0 top-0 px-10 z-50">
+        <div className="navbar-start ">
           <a
-            className="font-bold tracking-wider  text-white text-xl tooltip tooltip-right cursor-pointer select-none"
+            className=" text-xl cursor-pointer  tooltip tooltip-right font-bold tracking-wide"
             data-tip="Satyendra Narayan Saw"
           >
             SNS
-           
           </a>
         </div>
-       
-        <div className="flex-none">
+        <div className="navbar-center hidden lg:flex"></div>
+        <div className="navbar-end">
           <label className="swap swap-rotate">
             {/* this hidden checkbox controls the state */}
             <input

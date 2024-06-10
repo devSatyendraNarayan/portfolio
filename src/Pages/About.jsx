@@ -3,7 +3,7 @@ import { FaAward, FaCode, FaCity } from "react-icons/fa";
 
 function About() {
   return (
-    <div className="min-h-screen flex flex-col gap-5 items-center justify-center relative bottom-16">
+    <div className="min-h-screen flex flex-col gap-5 items-center justify-center relative bottom-16 mt-10 lg:mt-0 md:mt-0">
       <div className="flex flex-col items-center">
         <p className="text-md">My Intro</p>
         <h1 className="text-3xl text-purple-500">About Me</h1>
@@ -11,7 +11,7 @@ function About() {
 
       <div className="flex flex-col lg:flex-row items-center gap-5 w-4/5">
         <img
-          src="/src/assets/Programming-amico.svg"
+          src="https://lh3.googleusercontent.com/pw/AP1GczMdsabikWIHvWP4QSxCvOMb-B67iwR-pyrme_9OFhI99hgYa6jtxtAF-vhGEJXO6w2uAjowKeejerUlj6HNGGByg2YMwaKyd2GDYlJsqRqXiP8ra9OcbCL48ICDOBdtCLFkrvxVkd6pv2OvbHOgl4Vz=w913-h913-s-no-gm"
           className="w-[350px] h-auto"
           alt="programming"
         />

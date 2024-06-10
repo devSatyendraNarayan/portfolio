@@ -12,7 +12,6 @@ import "./App.css";
 import Navbar from "./component/Navbar";
 import Social from "./component/Social";
 
-
 const NavigationLink = ({ to, icon: Icon, activeLink, setActiveLink }) => (
   <li
     className={`${
@@ -96,10 +95,10 @@ const App = () => {
               <div className=" w-[80vw] mx-auto ">
                 <Navbar />
                 <div>
-                <Social/>
-               
+                  <Social />
                 </div>
                
+
                 <Element name="Home">
                   <Home />
                 </Element>
@@ -115,7 +114,6 @@ const App = () => {
                 <Element name="Contact">
                   <Contact />
                 </Element>
-                
               </div>
             }
           />

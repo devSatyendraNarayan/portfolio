@@ -2,7 +2,7 @@ import React from "react";
 import { MdEmail } from "react-icons/md";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { IoLogoWhatsapp } from "react-icons/io";
+import { IoLogoWhatsapp,IoMdCall  } from "react-icons/io";
 
 function Contact() {
   return (
@@ -29,6 +29,25 @@ function Contact() {
               className="flex items-center gap-2 text-purple-300 hover:scale-105"
             >
               Write Me <FaArrowRightLong />
+            </a>
+          </div>
+        </div>
+        <div className="card w-full  bg-base-100 shadow-xl">
+          <div className="card-body flex items-center">
+            <h2 className="flex flex-col items-center">
+              <IoMdCall className="text-2xl" />
+              <span className="text-md text-gray-200">
+                +91 930-4085-461
+              </span>
+            </h2>
+            <p className="text-lg">Via call</p>
+            <a
+              href={`tel:+919304085461`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-purple-300 hover:scale-105"
+            >
+              Call Me <FaArrowRightLong />
             </a>
           </div>
         </div>
