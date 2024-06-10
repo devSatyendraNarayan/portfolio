@@ -6,7 +6,7 @@ function Home() {
       <div className="text-center flex flex-col items-center gap-y-4">
         <img
           className="mask mask-circle w-1/3"
-          src="/src/assets/MyImage.png"
+          src="https://photos.google.com/photo/AF1QipN5AukVdpnzucUcYFov8lXr6X_9pBH6NimVd1IF"
           alt="My Image"
         />
         <div>
