@@ -32,12 +32,7 @@ function Home() {
           >
             Download CV
           </a>
-          <a
-            className="inline-block rounded-lg border border-purple-300 bg-purple-600 px-12 py-3 text-md font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-purple-500"
-            href="#"
-          >
-            About Me
-          </a>
+         
         </div>
         <div className="flex items-center">
           <span className="bg-green-600 text-white text-sm font-semibold px-2.5 py-0.5 rounded">

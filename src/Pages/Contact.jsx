@@ -6,18 +6,18 @@ import { IoLogoWhatsapp,IoMdCall  } from "react-icons/io";
 
 function Contact() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center gap-5">
+    <div className="min-h-screen flex flex-col items-center justify-center ">
       <div className="flex flex-col items-center">
         <p className="text-md">Get in touch</p>
         <h1 className="text-3xl text-purple-500">Contact Me</h1>
       </div>
 
-      <div className="flex gap-5 flex-col lg:flex-row items-center mt-5">
+      <div className="flex  flex-col lg:flex-row w-fit gap-2 mt-5">
         <div className="card w-full  bg-base-100 shadow-xl">
           <div className="card-body flex items-center">
             <h2 className="flex flex-col items-center">
               <MdEmail className="text-2xl" />
-              <span className="text-md text-gray-200">
+              <span className="text-sm text-gray-200">
                 satyendranarayansaw01@gmail.com
               </span>
             </h2>
@@ -36,7 +36,7 @@ function Contact() {
           <div className="card-body flex items-center">
             <h2 className="flex flex-col items-center">
               <IoMdCall className="text-2xl" />
-              <span className="text-md text-gray-200">
+              <span className="text-sm text-gray-200">
                 +91 930-4085-461
               </span>
             </h2>
@@ -52,10 +52,10 @@ function Contact() {
           </div>
         </div>
         <div className="card w-full bg-base-100 shadow-xl">
-          <div className="card-body flex items-center">
+          <div className="card-body flex items-center px-0">
             <h2 className="flex flex-col items-center">
               <FaLinkedin className="text-2xl" />
-              <span className="text-md text-gray-200">
+              <span className="text-sm text-gray-200">
                 Satyendra Narayan saw
               </span>
             </h2>
@@ -70,11 +70,11 @@ function Contact() {
             </a>
           </div>
         </div>
-        <div className="card w-full bg-base-100 shadow-xl">
-          <div className="card-body flex items-center">
+        <div className="card w-full bg-base-100 shadow-xl ">
+          <div className="card-body flex items-center justify-center px-0">
             <h2 className="flex flex-col items-center">
               <IoLogoWhatsapp className="text-2xl" />
-              <span className="text-md text-gray-200">
+              <span className="text-sm text-gray-200">
                 Satyendra Narayan saw
               </span>
             </h2>

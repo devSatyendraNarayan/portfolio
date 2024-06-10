@@ -44,16 +44,11 @@ function About() {
             Entry-level Front End Developer excited at the prospect of
             developing web applications and developing agile software in a
             professional setting. Focused worker recognized by peers for my
-            effective communication and problem-solving skills. Looking to
-            apply my understanding of JavaScript and DevOps Engineering at
-            your company.
+            effective communication and problem-solving skills. Looking to apply
+            my understanding of JavaScript and DevOps Engineering at your
+            company.
           </div>
-          <a
-            className="inline-block w-fit rounded-lg border hover:text-white border-purple-300 bg-purple-600 px-12 py-3 text-md font-medium text-white hover:bg-transparent  focus:outline-none focus:ring active:text-purple-500"
-            href="#"
-          >
-            Contact Me
-          </a>
+          
         </div>
       </div>
     </div>
