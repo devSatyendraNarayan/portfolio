@@ -12,13 +12,8 @@ function Home() {
       
       <div className="text-center flex flex-col items-center gap-y-4">
         <img
-<<<<<<< HEAD
           className="mask mask-circle w-80 "
           src="https://lh3.googleusercontent.com/pw/AP1GczPJ_Yf502IiK7Ef2eNF_iVWXE3F11PUWbY3eYO7yB2F9hmdVv_Cudm8HY-IqWtp3_VB8wpRy3ORkpByQVk4d_swJM03slK0blsVs-B_4cVEJzTOZefdYzoL619w0sAEBmmBcs5rvAqyX1KsbX2tGKM1=w913-h913-s-no-gm"
-=======
-          className="mask mask-circle lg:w-96 w-80"
-src="https://lh3.googleusercontent.com/pw/AP1GczPJ_Yf502IiK7Ef2eNF_iVWXE3F11PUWbY3eYO7yB2F9hmdVv_Cudm8HY-IqWtp3_VB8wpRy3ORkpByQVk4d_swJM03slK0blsVs-B_4cVEJzTOZefdYzoL619w0sAEBmmBcs5rvAqyX1KsbX2tGKM1=w913-h913-s-no-gm"
->>>>>>> 49dd46d0cfc242b6a397eb0616ad3d76d0daf52f
           alt="My Image"
         />
         <div>
