@@ -16,9 +16,10 @@ function Social() {
           </li>
           <li>
             <a
-             href="https://github.com/devSatyendraNarayan?tab=repositories"
-             target="_blank"
-             rel="noopener noreferrer">
+              href="https://github.com/devSatyendraNarayan?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub className="text-white text-xl" />
             </a>
           </li>

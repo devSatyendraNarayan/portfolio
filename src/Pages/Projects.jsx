@@ -1,6 +1,5 @@
 import React from "react";
-import { FaArrowRightLong } from "react-icons/fa";
-import { IoCodeSlash } from "react-icons/io5";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Projects = () => {
   const projectData = [
@@ -9,7 +8,9 @@ const Projects = () => {
       title: "AI Grammar Correct",
       imageUrl: "/src/assets/AI-Grammer-correct.jpeg",
       demoLink: "https://gramarly.vercel.app/",
-      isCodeAvailable: false,
+      codeLink:
+        "https://github.com/devSatyendraNarayan/Object-detection-System-",
+
       technologies: ["Gemini API", "React JS"],
     },
     {
@@ -17,7 +18,8 @@ const Projects = () => {
       title: "Object Detection System",
       imageUrl: "/src/assets/Object-detection-img.jpeg",
       demoLink: "https://object-detection-system.vercel.app/",
-      codeLink: "https://github.com/devSatyendraNarayan/Object-detection-System-",
+      codeLink:
+        "https://github.com/devSatyendraNarayan/Object-detection-System-",
       technologies: ["Tensorflow JS", "React JS"],
     },
   ];
@@ -28,14 +30,12 @@ const Projects = () => {
         <p className="text-md">My Portfolio</p>
         <h1 className="text-3xl text-purple-500">Projects</h1>
       </div>
-      <div className="lg:flex lg:flex-row w-full mt-5 flex-col mb-10 lg:mb-0 items-center justify-around gap-5">
+      <div className="flex lg:flex-row w-full mt-5 flex-col mb-10 lg:mb-0 items-center justify-center lg:space-x-5 ">
         {projectData.map((project) => (
-          <div key={project.id} className="card w-96 bg-base-100 shadow-xl relative">
-            {!project.isCodeAvailable && (
-              <span className="p-1 bg-gray-500 rounded-full absolute right-2 text-xs top-2 flex items-center justify-center cursor-pointer">
-                Not Available
-              </span>
-            )}
+          <div
+            key={project.id}
+            className="card w-96 bg-base-100 shadow-xl relative mb-5"
+          >
             {project.codeLink && (
               <a
                 href={project.codeLink}
@@ -64,7 +64,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-purple-300"
                   >
-                    Demo <FaArrowRightLong />
+                    Demo<FaArrowRightLong />
                   </a>
                   <div className="space-x-2">
                     {project.technologies.map((tech, index) => (

@@ -115,6 +115,7 @@ const App = () => {
                 <Element name="Contact">
                   <Contact />
                 </Element>
+                
               </div>
             }
           />
