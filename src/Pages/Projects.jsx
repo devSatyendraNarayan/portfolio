@@ -9,7 +9,7 @@ const Projects = () => {
       imageUrl: "https://lh3.googleusercontent.com/pw/AP1GczORGNNTmsVEQt4g_k2gW5eCrpA2O8sJZBeoNGhM-sb7YOF8bl0VbqznA4HtuZ2ycHjlw_tf8QVnHhdWjwOnD4TkLeakloYu61iU6U6lnD1wu4R9TkNk-vpzINDtzu6IpbD15pmUweHvutKBmxnAIyu8HE5IvjzoTfWiXnFzAUYVAG-J5qHhWmX35zy05-4sVM0kyJiLBG-qNdX4qQ5Q649mWTIN8JUqokjzPi6m3E2eTMXW3iojgbgt9PKCsUa9LJVwlmyBEdE6AEj9dpIt_k0I-PUNabyeYO3r6XUGaIy3FMV7SZbBhwkRANF8vGgUDPD7WGzd3ZmTUc0kEHjroVbphbhohqGLERpHT9qzrXOmEDg6a5bneQWwu7SzNPaqoS4cLHhhOTWH8tmSMNYOSeokjidLaiHMyqLQrZQvVRM5zWDS81nWY_mLb_-NtUz_9o4Xz5nesRRn2LlUaZdT1Hcl-5oPFpYQlwPqaMd2dQf4HLelh9eW3EIxNP57ljtbrv76yzrQD--OSQm5tINF6QSffnhryG1VDeGY_bpIEvz8KdkORDg1Sf8Fp5erU5V7bRtf6Mn7x2WKlXUfm7jV47uuIe_Gx-i7ebmXDvSaAbfGOqOUq1_XM3xLSJtFzmLM8HG4jMIw0m4GuQj60XPGQVNzhWe8sY8YQKN09lDmuzn6gSn6Qav1YSjkr08ygMdALbfK-2n7gWdfez22SWuedh27LmFaXubFn6n6scngJxOjsDmS_m0bARxPRrV1NdEQ8_eQ_lljSvkecsc8rL1FkZhLUce6xJDrsyR3tJjiOQUNtyf3FRHNUDpIu7t41Di51eJz256yC2RAL5RniZhRppktb_eFCIPb3b4lnJKNfrS2yelIrlxSlL7qgNy90CxK6PyrOI4C-imwcV2M3YdnjkTtRsjHsWBpLaN_lKxz6Alm12jrR5uO_mGnSKozduB84v_6UNRPNeZ_UHJanT_aAGgK1ysOCM39XWf73BE9V_gK2iUisaNQf3iUC_frd1IX8edkrNglyHblt7ol5XYgFUN613pSC3KOXW5lGPc=w1190-h583-s-no-gm?authuser=0",
       demoLink: "https://gramarly.vercel.app/",
       codeLink:
-        "https://github.com/devSatyendraNarayan/Object-detection-System-",
+        "https://github.com/devSatyendraNarayan/Gramarly",
 
       technologies: ["Gemini API", "React JS"],
     },
